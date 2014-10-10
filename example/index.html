@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress - Page Scroll Progress Indicator</title>
+    <!-- Bootstrap core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <h1 class="navbar-brand">Progress</h1>
+            </div>
+        </div>
+        <div class="progress-indicator">
+            <svg>
+                <g>
+                    <circle cx="0" cy="0" r="20" stroke="black" class="animated-circle" transform="translate(50,50) rotate(-90)"  />
+                </g>
+                <g>
+                    <circle cx="0" cy="0" r="38" transform="translate(50,50) rotate(-90)"  />
+                </g>
+            </svg>
+            <div class="progress-count"></div>
+        </div>
+    </div>
+
+    <!-- +++++ Post +++++ -->
+    <div id="white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p><img src="assets/img/user.png" width="50px" height="50px"> <span class="ba">Stanley Stinson</p>
+                    <p class="bd">January 3, 2014</p>
+                    <h4>An Image Post</h4>
+                    <p><img class="img-responsive" src="assets/img/blog01.jpg" alt=""></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisl vitae quam commodo cursus. Phasellus porta placerat dolor vitae placerat. Sed eros nibh, vulputate sit amet purus sed, congue tempor libero. Sed semper urna ornare diam interdum, nec tincidunt mauris dictum. Sed consectetur lectus vitae sagittis volutpat. Duis sit amet condimentum lectus. Proin eu massa nec lectus viverra efficitur vel nec lorem. Praesent fermentum eros id purus ultricies feugiat. Ut et ligula interdum, sollicitudin ante a, fermentum ipsum. Mauris elementum diam est, nec finibus libero fringilla eu. In vulputate, magna in pulvinar mollis, sem lectus consectetur erat, a porta mi erat eget mauris. Suspendisse dignissim velit risus, ac pharetra orci iaculis in. Proin lobortis leo lectus. Vestibulum dolor leo, vulputate nec pharetra ac, tempus et sem. Nulla facilisi. Pellentesque ac eros lobortis, vestibulum ex vel, varius quam.</p>
+                    <p>Cras non ante in lectus malesuada ultricies. Duis semper pellentesque volutpat. Pellentesque tempor nec lacus sit amet lacinia. Suspendisse non augue neque. Proin scelerisque turpis mi, eget auctor velit consequat a. Vivamus dignissim sapien id viverra malesuada. Nunc eleifend sodales mauris suscipit gravida. Praesent a augue id felis hendrerit rhoncus. Nam tristique eros eu lobortis aliquet. Nunc sed lacinia arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed porta maximus turpis eu sodales. Vivamus efficitur tortor quis turpis tempor, efficitur ultrices est commodo. Nunc a porta felis. Morbi dui quam, interdum ac mi et, tristique commodo ipsum. Maecenas purus lacus, rhoncus sed nisi ut, ultrices pharetra enim.</p>
+                    <p>Nulla suscipit velit vitae tortor imperdiet, vel egestas enim rutrum. Vivamus lobortis justo nisl, ac fringilla odio placerat eget. Sed quis tortor eros. Morbi orci mauris, maximus quis nulla non, feugiat varius augue. Aliquam sed mauris varius, vestibulum augue eget, pretium nisl. Aenean eget purus semper, sagittis augue non, dignissim lacus. Vestibulum fringilla, sem sed posuere pulvinar, nisi odio efficitur lorem, vitae eleifend magna augue nec nisi. Duis sed facilisis sapien, ut vulputate quam. Nulla ullamcorper, ex nec hendrerit malesuada, urna nibh sodales turpis, eu bibendum quam ligula eu turpis. In eu velit lorem. Integer aliquam vitae diam lobortis varius. Sed congue porta mauris, sed imperdiet mi sollicitudin vel. Etiam vitae blandit lorem. Mauris a aliquet est, vel vehicula neque. Donec in justo at ligula congue mollis. Mauris ultricies purus ut nibh feugiat, id laoreet purus tincidunt.</p>
+                    <p>Donec et sagittis lectus. Sed ultrices massa vel turpis euismod varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin accumsan elit ac diam dignissim dapibus. Vestibulum vitae mattis justo. Aliquam posuere, augue non convallis dapibus, metus ipsum egestas felis, ac convallis tortor leo vel enim. Integer in elementum nisi. Sed id purus leo. Morbi id finibus nisl. Quisque vitae nisl neque. Ut blandit sodales erat at pretium. Maecenas nec molestie orci. Morbi lobortis quam at justo bibendum pulvinar. Praesent imperdiet eros ut ipsum efficitur, et condimentum orci efficitur. Vestibulum sed enim nulla.</p>
+                    <br>
+                    <p class="bt">TAGS: <a href="#">Wordpress</a> - <a href="#">Web Design</a></p>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+        </div> <!-- /container -->
+    </div><!-- /white -->
+
+    <!-- +++++ Footer Section +++++ -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <p>My awesome footer</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../build/progress.min.js"></script>
+    <script>Progress.init();</script>
+</body>
+</html>
