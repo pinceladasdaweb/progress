@@ -9,13 +9,13 @@ You can download the lib:
 * [development version](lib/progress.js);
 * [minified version](build/progress.min.js);
 
-Please, this lib don't have CDN yet, so you need to download and put it in your own site.
+Please, this lib doesn't have CDN yet, so you need to download and put it in your own site.
 
 # How to use
 
 ### Loading the lib
 
-Like I said, you need to download and put this lib in your own site, using this tag below:
+Download the file **progress.min.js** and put this lib in your own site, using the tag _&lt;script&gt;_:
 
 ```html
 <html>
@@ -39,6 +39,13 @@ Like I said, you need to download and put this lib in your own site, using this 
     </body>
 </html>
 ```
+
+### Progress init:
+
+```javascript
+Progress.init();
+```
+
 
 ### CSS Rules for the indicator
 
