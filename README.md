@@ -1,6 +1,6 @@
 # Progress
 
-Page Scroll Progress Indicator.
+Page Scroll Reading Progress Indicator.
 
 # How to install
 
@@ -10,6 +10,10 @@ You can download the lib:
 * [minified version](build/progress.min.js)
 
 Please, this lib don't have CDN yet, so you need to download and put it in your own site.
+
+## Demo
+
+Access [the url](http://www.pinceladasdaweb.com.br/blog/uploads/progress/) and view in action.
 
 # How to use
 
