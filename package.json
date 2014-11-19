@@ -1,7 +1,7 @@
 {
     "name": "Progress",
     "description": "Page Scroll Progress Indicator",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Pedro Rogério",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
