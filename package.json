@@ -1,14 +1,14 @@
 {
     "name": "Progress",
     "description": "Page Scroll Progress Indicator",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Pedro Rogério",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "devDependencies": {
         "grunt": "~0.4.5",
-        "grunt-contrib-uglify": "~0.6.0"
+        "grunt-contrib-uglify": "~0.9.1"
     },
     "repository": "https://github.com/pinceladasdaweb/Progress",
     "bugs": {
