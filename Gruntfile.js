@@ -1,11 +1,12 @@
 module.exports = function (grunt) {
     "use strict";
 
-    var pkg = grunt.file.readJSON("package.json");
+    var pkg  = grunt.file.readJSON("package.json"),
+        date = new Date();
 
     grunt.initConfig({
         meta: {
-          banner: '/*! '+pkg.name+' '+pkg.version+' | (c) 2014 '+pkg.author+' | '+pkg.licenses[0].type+' License */'
+          banner: '/*! ' + pkg.name + ' ' + pkg.version + ' | (c) ' + date.getFullYear() + ' ' + pkg.author + ' | ' + pkg.licenses[0].type + ' License */'
         },
         uglify: {
             options: {
